@@ -4,14 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Resume Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Resume Website Demo</title>
   </head>
   <body>
-    <a href="index.html"><h2>Home</h2></a>
-    <a href="hobbies.html"><h2 style="text-align: left;">Hobbies</h2></a>
+    <div class="heading">
+      <a href="index.html"><h2>Home</h2></a>
+      <a href="hobbies.html"><h2 style="text-align: left;">Hobbies</h2></a>
+    </div>
     <h2 style="text-align: center; text-decoration: none;">Contact Info</h2>
     <h3>April Green</h3>
-    <p>Email: agreen@duck.com</p>
-    <p>Phone Number: 825-555-5348</p>
+    <p>Email: agreen@email.com</p>
+    <p>Phone Number: 555-555-5555</p>
+    <h3>Contact me</h3>
+    <form>
+      <p>Email: <input type="email" name="email" size="25" maxlength="30" /></p>
+      <textarea id="message" name="message" rows="4" cols="50">
+(Type your message here)
+      </textarea>
+      <button>Submit</button>
+    </form>
   </body>
 </html>
